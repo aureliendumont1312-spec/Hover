@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.image-container {
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.image-container img {
+  width: 100%;
+  display: block;
+}
+
+.image-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.image-container:hover .image-top {
+  opacity: 1;
+}
+</style>
+</head>
+<body>
+<div class="image-container">
+  <img src="https://www.notion.so/Donjon-P-turages-des-Bouftous-Niv-12-2a53d27d4dd580f68f1fd47618b4ca51?source=copy_link#2a53d27d4dd58008b787ea5417b42029" class="image-bottom" alt="Plan 1">
+  <img src="https://www.notion.so/Donjon-P-turages-des-Bouftous-Niv-12-2a53d27d4dd580f68f1fd47618b4ca51?source=copy_link#2a53d27d4dd58010bf2df746aa6a520b" class="image-top" alt="Plan 2">
+</div>
+</body>
+</html>
